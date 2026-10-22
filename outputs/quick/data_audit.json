@@ -1,0 +1,46 @@
+{
+  "source": "https://github.com/houbensebastian/GermanTrafficSignBenchmarks",
+  "official_download_base": "https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/",
+  "archives": {
+    "GTSRB_Final_Training_Images.zip": "d32ac4b5fa9a1cbd1994768413902e8193599d9434cf0a8eb9cfd00a6d3a290c",
+    "GTSRB_Final_Test_Images.zip": "48ba6fab7e877eb64eaf8de99035b0aaecfbc279bee23e35deca4ac1d0a837fa",
+    "GTSRB_Final_Test_GT.zip": "f94e5a7614d75845c74c04ddb26b8796b9e483f43541dd95dd5b726504e16d6d"
+  },
+  "seed": 42,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "track_rule": "training: original class ID + filename prefix before underscore; complete physical-sign tracks assigned within each class",
+  "split_rule": "per-class seeded choice of round(track_count * validation_fraction), at least one validation and one training track; official test unchanged",
+  "official_test_track_metadata_available": false,
+  "train_val_track_overlap": 0,
+  "cross_split_identical_file_groups": 0,
+  "cross_split_identical_rgb_groups": 0,
+  "corrupt_or_invalid_images": [],
+  "counts": {
+    "test": 4800,
+    "train": 11760,
+    "val": 2910
+  },
+  "original_dimensions": {
+    "min_width": 25,
+    "max_width": 182,
+    "min_height": 25,
+    "max_height": 180
+  },
+  "preprocessing": {
+    "image_size": 32,
+    "use_roi": false,
+    "augmentation": false
+  },
+  "limitation": "Test filenames do not expose physical-sign track IDs; no explicit cross-set physical identity verification beyond official separation and exact image hashes."
+}

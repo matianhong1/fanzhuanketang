@@ -1,0 +1,14 @@
+{
+  "hog_svm": {
+    "reload_batch_predictions_identical": true,
+    "single_image_matches_batch": true
+  },
+  "hog_knn": {
+    "reload_batch_predictions_identical": true,
+    "single_image_matches_batch": true
+  },
+  "pixels_svm": {
+    "reload_batch_predictions_identical": true,
+    "single_image_matches_batch": true
+  }
+}

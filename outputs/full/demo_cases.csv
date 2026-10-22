@@ -1,0 +1,25 @@
+﻿input,source,true_id,predicted_id,correct,selection
+outputs\full\demo_inputs\success_00403.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00403.ppm,0,0,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00001.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00001.ppm,1,1,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00034.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00034.ppm,2,2,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00023.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00023.ppm,3,3,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00014.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00014.ppm,4,4,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00056.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00056.ppm,5,5,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00129.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00129.ppm,6,6,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00011.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00011.ppm,7,7,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00123.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00123.ppm,8,8,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00022.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00022.ppm,9,9,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00027.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00027.ppm,10,10,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\success_00004.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00004.ppm,11,11,True,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00243.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00243.ppm,0,1,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00024.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00024.ppm,1,4,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00092.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00092.ppm,2,1,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00046.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00046.ppm,3,2,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00181.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00181.ppm,4,8,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00030.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00030.ppm,5,1,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00335.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00335.ppm,6,30,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00087.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00087.ppm,7,5,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00039.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00039.ppm,8,5,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00015.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00015.ppm,9,10,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00113.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00113.ppm,10,9,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张
+outputs\full\demo_inputs\failure_00311.png,F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00311.ppm,11,25,False,按真实类别 ID 顺序，每类首个匹配测试样本，最多12张

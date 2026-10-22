@@ -1,0 +1,293 @@
+{
+  "hog_svm": {
+    "name": "hog_svm",
+    "kind": "hog",
+    "config": {
+      "seed": 42,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image_size": 32,
+      "use_roi": false,
+      "validation_fraction": 0.2,
+      "hog": {
+        "orientations": 9,
+        "pixels_per_cell": [
+          8,
+          8
+        ],
+        "cells_per_block": [
+          2,
+          2
+        ],
+        "block_norm": "L2-Hys",
+        "transform_sqrt": true
+      },
+      "data_dir": "data",
+      "output_dir": "outputs/quick",
+      "assets_dir": "presentation_assets/quick",
+      "robust_per_class": 30,
+      "svm_C": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "knn_k": [
+        3,
+        5
+      ]
+    },
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "class_names": {
+      "0": "限速20公里/小时",
+      "1": "限速30公里/小时",
+      "2": "限速50公里/小时",
+      "3": "限速60公里/小时",
+      "4": "限速70公里/小时",
+      "5": "限速80公里/小时",
+      "6": "解除80公里/小时限速",
+      "7": "限速100公里/小时",
+      "8": "限速120公里/小时",
+      "9": "禁止超车"
+    },
+    "selected_params": {
+      "C": 0.1
+    },
+    "timings": {
+      "train_seconds": 8.782806800001708,
+      "refit_seconds": 8.782806800001708,
+      "tuning_seconds": 20.559459199997946,
+      "feature_seconds": 145.11305210000137
+    },
+    "validation_macro_f1": 0.7553812367470125,
+    "train_samples": 11760,
+    "val_samples": 2910,
+    "refit_samples": 14670,
+    "feature_dimension": 324,
+    "selection_rule": "maximum validation macro F1; ties choose smaller C or k",
+    "final_fit_pool": "train+val; official test excluded",
+    "svm_settings": {
+      "dual": false,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "knn_settings": null,
+    "fit_warnings": [],
+    "python_version": "3.12.7",
+    "sklearn_version": "1.5.1"
+  },
+  "hog_knn": {
+    "name": "hog_knn",
+    "kind": "hog",
+    "config": {
+      "seed": 42,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image_size": 32,
+      "use_roi": false,
+      "validation_fraction": 0.2,
+      "hog": {
+        "orientations": 9,
+        "pixels_per_cell": [
+          8,
+          8
+        ],
+        "cells_per_block": [
+          2,
+          2
+        ],
+        "block_norm": "L2-Hys",
+        "transform_sqrt": true
+      },
+      "data_dir": "data",
+      "output_dir": "outputs/quick",
+      "assets_dir": "presentation_assets/quick",
+      "robust_per_class": 30,
+      "svm_C": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "knn_k": [
+        3,
+        5
+      ]
+    },
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "class_names": {
+      "0": "限速20公里/小时",
+      "1": "限速30公里/小时",
+      "2": "限速50公里/小时",
+      "3": "限速60公里/小时",
+      "4": "限速70公里/小时",
+      "5": "限速80公里/小时",
+      "6": "解除80公里/小时限速",
+      "7": "限速100公里/小时",
+      "8": "限速120公里/小时",
+      "9": "禁止超车"
+    },
+    "selected_params": {
+      "n_neighbors": 5
+    },
+    "timings": {
+      "train_seconds": 0.051487200002156897,
+      "refit_seconds": 0.051487200002156897,
+      "tuning_seconds": 0.5018405999981042,
+      "feature_seconds": 145.11305210000137
+    },
+    "validation_macro_f1": 0.637294995392112,
+    "train_samples": 11760,
+    "val_samples": 2910,
+    "refit_samples": 14670,
+    "feature_dimension": 324,
+    "selection_rule": "maximum validation macro F1; ties choose smaller C or k",
+    "final_fit_pool": "train+val; official test excluded",
+    "svm_settings": null,
+    "knn_settings": {
+      "weights": "distance",
+      "metric": "euclidean",
+      "n_jobs": 2
+    },
+    "fit_warnings": [],
+    "python_version": "3.12.7",
+    "sklearn_version": "1.5.1"
+  },
+  "pixels_svm": {
+    "name": "pixels_svm",
+    "kind": "pixels",
+    "config": {
+      "seed": 42,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "image_size": 32,
+      "use_roi": false,
+      "validation_fraction": 0.2,
+      "hog": {
+        "orientations": 9,
+        "pixels_per_cell": [
+          8,
+          8
+        ],
+        "cells_per_block": [
+          2,
+          2
+        ],
+        "block_norm": "L2-Hys",
+        "transform_sqrt": true
+      },
+      "data_dir": "data",
+      "output_dir": "outputs/quick",
+      "assets_dir": "presentation_assets/quick",
+      "robust_per_class": 30,
+      "svm_C": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "knn_k": [
+        3,
+        5
+      ]
+    },
+    "classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "class_names": {
+      "0": "限速20公里/小时",
+      "1": "限速30公里/小时",
+      "2": "限速50公里/小时",
+      "3": "限速60公里/小时",
+      "4": "限速70公里/小时",
+      "5": "限速80公里/小时",
+      "6": "解除80公里/小时限速",
+      "7": "限速100公里/小时",
+      "8": "限速120公里/小时",
+      "9": "禁止超车"
+    },
+    "selected_params": {
+      "C": 0.01
+    },
+    "timings": {
+      "train_seconds": 21.736024799996812,
+      "refit_seconds": 21.736024799996812,
+      "tuning_seconds": 153.73080310000296,
+      "feature_seconds": 141.5772195999998
+    },
+    "validation_macro_f1": 0.8977398721381868,
+    "train_samples": 11760,
+    "val_samples": 2910,
+    "refit_samples": 14670,
+    "feature_dimension": 1024,
+    "selection_rule": "maximum validation macro F1; ties choose smaller C or k",
+    "final_fit_pool": "train+val; official test excluded",
+    "svm_settings": {
+      "dual": false,
+      "tol": 0.0001,
+      "max_iter": 10000
+    },
+    "knn_settings": null,
+    "fit_warnings": [],
+    "python_version": "3.12.7",
+    "sklearn_version": "1.5.1"
+  }
+}

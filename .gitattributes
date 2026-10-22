@@ -1,0 +1,4 @@
+# Preserve experiment files and source snapshots byte-for-byte for SHA256 checks.
+* -text
+*.png binary
+*.joblib binary

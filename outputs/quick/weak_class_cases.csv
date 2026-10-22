@@ -1,0 +1,7 @@
+﻿path,true_id,predicted_id,class_support,class_f1,selection
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00030.ppm,5,1,630,0.6123778501628665,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00243.ppm,0,1,60,0.6538461538461539,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00024.ppm,1,4,720,0.6926286509040334,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00039.ppm,8,5,450,0.7077267637178052,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00092.ppm,2,1,750,0.7255029201817002,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参
+F:\jiqixuexiPythonshijian\data\extracted\GTSRB\Final_Test\Images\00046.ppm,3,2,450,0.7270718232044199,事后按完整测试逐类F1升序，每类取文件名排序首个错例；仅作解释，不参与调参

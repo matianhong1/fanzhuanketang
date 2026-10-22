@@ -1,0 +1,21 @@
+{
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "sklearn": "1.5.1",
+  "skimage": "0.24.0",
+  "matplotlib": "3.9.2",
+  "threads": 4,
+  "source_sha256": {
+    "main.py": "daad4e05ac0ea7a23967e98f91e43c3b3f952dc929422f49af735e736863931e",
+    "traffic_signs\\data.py": "c0b652551c7ce87989a8a2385493be563ddf223387235f1ec1bbd95fe1ad9ba8",
+    "traffic_signs\\evaluation.py": "dcb8a7083c8822e53d9fd7665b40e516e37bac811ca842ff564f6a38473dfcf3",
+    "traffic_signs\\features.py": "9735d72d3aada2b4b7a28c8c5e4842f39fd9ca43dd3c40014eabd8d049080c05",
+    "traffic_signs\\labels.py": "2fbee33ab726324c3c1a809527aaa2b8c958b8b404408b16e7b9e1012a180455",
+    "traffic_signs\\materials.py": "9f0bf5baa0dfa997f9ce2c413732b2da6d63ccffd512af8d919ca2fdfb1a9947",
+    "traffic_signs\\models.py": "bd8ff02f92d111fad770d755081280f59ff5944623e2dfc92752c1ff65a01191",
+    "traffic_signs\\plotting.py": "361714497ce61885ef34d31351dce5c8525f09fcf902c86945bfdb2fb9052ceb",
+    "traffic_signs\\__init__.py": "f654bafd41c867ed193d6ea25d369810356009d547818bb8b55ae71c1ae482cc"
+  }
+}

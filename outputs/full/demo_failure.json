@@ -1,0 +1,6 @@
+{
+  "class_id": 10,
+  "chinese_name": "禁止3.5吨以上货车超车",
+  "model": "hog_svm",
+  "input": "F:\\jiqixuexiPythonshijian\\outputs\\full\\demo_inputs\\failure_00015.png"
+}

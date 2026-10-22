@@ -1,0 +1,99 @@
+{
+  "source": "https://github.com/houbensebastian/GermanTrafficSignBenchmarks",
+  "official_download_base": "https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/",
+  "archives": {
+    "GTSRB_Final_Training_Images.zip": "d32ac4b5fa9a1cbd1994768413902e8193599d9434cf0a8eb9cfd00a6d3a290c",
+    "GTSRB_Final_Test_Images.zip": "48ba6fab7e877eb64eaf8de99035b0aaecfbc279bee23e35deca4ac1d0a837fa",
+    "GTSRB_Final_Test_GT.zip": "f94e5a7614d75845c74c04ddb26b8796b9e483f43541dd95dd5b726504e16d6d"
+  },
+  "seed": 42,
+  "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "track_rule": "training: original class ID + filename prefix before underscore; complete physical-sign tracks assigned within each class",
+  "split_rule": "per-class seeded choice of round(track_count * validation_fraction), at least one validation and one training track; official test unchanged",
+  "official_test_track_metadata_available": false,
+  "train_val_track_overlap": 0,
+  "cross_split_identical_file_groups": 0,
+  "cross_split_identical_rgb_groups": 0,
+  "corrupt_or_invalid_images": [],
+  "counts": {
+    "test": 12630,
+    "train": 31349,
+    "val": 7830
+  },
+  "original_dimensions": {
+    "min_width": 25,
+    "max_width": 266,
+    "min_height": 25,
+    "max_height": 232
+  },
+  "preprocessing": {
+    "image_size": 32,
+    "use_roi": false,
+    "augmentation": false
+  },
+  "limitation": "Exact hash matches caused whole-track quarantine. Non-identical near-duplicate physical instances cannot be ruled out because official test filenames do not expose physical-sign track IDs.",
+  "counts_before_decontamination": {
+    "test": 12630,
+    "train": 31379,
+    "val": 7830
+  },
+  "cross_split_identical_file_groups_before_decontamination": 8,
+  "cross_split_identical_rgb_groups_before_decontamination": 8,
+  "decontamination_policy": "Keep official test unchanged; quarantine entire training-pool tracks with a file or decoded-RGB hash matching any official test image. Do not use test predictions or labels to select exclusions. Move whole validation tracks into train if exact-image components connect train and val.",
+  "excluded_tracks": [
+    "00014_00023"
+  ],
+  "excluded_rows": 30,
+  "train_val_duplicate_tracks_moved_to_train": [],
+  "official_test_rows_unchanged": true,
+  "counts_including_excluded": {
+    "excluded": 30,
+    "test": 12630,
+    "train": 31349,
+    "val": 7830
+  }
+}

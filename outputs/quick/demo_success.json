@@ -1,0 +1,6 @@
+{
+  "class_id": 1,
+  "chinese_name": "限速30公里/小时",
+  "model": "hog_svm",
+  "input": "F:\\jiqixuexiPythonshijian\\outputs\\quick\\demo_inputs\\success_00000.png"
+}
